@@ -1,0 +1,31 @@
+                                                             /**********************************************
+                                                                                GLOBAL 
+                                                             **********************************************/
+
+
+html,body
+{
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+}
+
+
+a:link
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+ul
+{
+    list-style: none;
+}
+
+.page
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
