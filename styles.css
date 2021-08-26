@@ -29,3 +29,152 @@ ul
     flex-direction: column;
 
 }
+
+
+
+
+                                                             /*********************************************** 
+                                                                            SECTION HAUT DE PAGE
+                                                            **********************************************/
+
+
+                                                             /***********************************************
+                                                                            NAVIGATION
+                                                             **********************************************/
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bordure
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taillediv
+{
+    height: 99px;
+}
+
+.taillediv2
+{
+    flex-shrink: 0;
+}
+
+a.survol
+{
+    color: black;
+}
+
+a.survol2
+{
+    color: #0065FC;
+}
+
+a.survol:hover
+{
+    color : #0065FC;
+}
+
+.couleurbleue
+{
+    color: #0065FC;
+    margin-right: 10px;
+}
+
+
+
+
+                                                            /********************************************** 
+                                                                          VERSION MOBILE
+                                                             **********************************************/
+
+
+@media screen and (max-width: 767.98px)
+{
+
+    .menu
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .nav
+    {
+        order: 1;
+        width: 100%;
+    }
+
+    .borduremobile
+    {
+        width: 50%;
+        border-bottom: 5px solid #f2f2f2;
+    }
+
+   .bhover:hover
+    {
+        border-bottom:  5px solid #0065fc;
+    }
+
+}
+
+                                                            /*********************************************** 
+                                                                        VERSION TABLETTE
+                                                            **********************************************/
+
+
+@media screen and (min-width: 767.99px) and (max-width: 1112px)
+{
+    .nav
+    {
+        margin-left: 30%;
+    }
+}
+
+
+                                                            /*********************************************** 
+                                                                  PROPRIETES COMMUNES TABLETTE ET DESKTOP
+                                                            **********************************************/
+
+
+@media screen and (min-width: 767.99px)
+{
+    .taillediv
+    {
+        width: 140px;
+    }
+
+    .bhover:hover
+    {
+        border-top:  1px solid #0065FC;
+    }
+}
+
+
+                                                            /*********************************************** 
+                                                                            AJUSTEMENT DESKTOP
+                                                            **********************************************/
+
+
+
+@media screen and (min-width: 1113px)
+{
+    .nav
+    {
+        margin-left: 75%;
+    }
+}
