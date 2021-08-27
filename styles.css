@@ -211,6 +211,39 @@ ul
         color: #f2f2f2;
     }
 
+    .espace_icone
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .column
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .txtpop
+    {
+        margin-top: 30px;
+    }
+
+
+    .fond_blanc_populaire
+    {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        background-color: white;
+        padding: 1% 0 1% 1%;
+        border-radius: 20px;
+        margin-bottom: 22px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
 
                                                             /********************************************** 
                                                                           VERSION MOBILE
@@ -468,35 +501,6 @@ ul
         border-radius: 15px 15px 0 0;
     }
 
-    .image_1_populaire
-    {
-        background-image: url("small/soleil du matin.jpg");
-        background-size: cover;
-        background-position: center;
-        width: 45%;
-        height: 160px;
-        border-radius: 15px 0 0 15px;
-    }
-
-    .image_2_populaire
-    {
-        background-image: url("small/coeur de l'eau.jpg");
-        background-size: cover;
-        background-position: center;
-        width: 45%;
-        height: 160px;
-        border-radius: 15px 0 0 15px;
-    }
-
-    .image_3_populaire
-    {
-        background-image: url("small/bleu et blanc.jpg");
-        background-size: cover;
-        background-position: center;
-        width: 45%;
-        height: 160px;
-        border-radius: 15px 0 0 15px;
-    }
 
     .premiere_colonne
     {
@@ -537,6 +541,103 @@ ul
     {
         display: flex;
         padding: 1% 0 2% 0;
+    }
+
+    .image_1_populaire
+    {
+        background-image: url("small/soleil du matin.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 45%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .image_2_populaire
+    {
+        background-image: url("small/coeur de l'eau.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 45%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .image_3_populaire
+    {
+        background-image: url("small/bleu et blanc.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 45%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .fond_blanc_populaire
+    {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        background-color: white;
+        padding: 1% 0 1% 1%;
+        border-radius: 20px;
+        margin-bottom: 22px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .premiere_colonne
+    {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .deuxieme_colonne
+    {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .fond_blanc
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding: 1%;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-bottom: 25px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        line-height: 0.5;
+    }
+
+    .Texte_populaire
+    {
+        width: 60%;
+        padding-left: 5%;
+        line-height: 0.8;
+    }
+
+    .divetoile
+    {
+        display: flex;
+        margin-top: 35px;
+    }
+
+    .divetoile3
+    {
+        margin-top: 50px;
+        display: flex;
     }
 
 }
@@ -598,9 +699,49 @@ ul
         display: flex;
     }
 
+    .section_logement
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 
+    .zone_populaire
+    {
+        width: 350px;
+        margin-top: 25px;
+        margin-right: 43px;
+    }
 
+   .column2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+    }
 
+     .Texte_populaire
+    {
+        width: 60%;
+        padding-left: 5%;
+        line-height: 1;
+    }
+
+    .fond_blanc
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 30%;
+        height: auto;
+        background-color: white;
+        padding: 0.5%;
+        border-radius: 20px;
+        cursor: pointer;
+        line-height: 0.8;
+    }
 }
 
 
@@ -828,6 +969,61 @@ ul
         cursor: pointer;
         line-height: 0.8;
     }
+
+    .image_1_populaire
+    {
+        background-image: url("small/soleil du matin.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 35%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .image_2_populaire
+    {
+        background-image: url("small/coeur de l'eau.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 35%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .image_3_populaire
+    {
+        background-image: url("small/bleu et blanc.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 35%;
+        height: 160px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    /*.fond_blanc_populaire
+    {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        background-color: white;
+        padding: 1% 0 1% 1%;
+        border-radius: 20px;
+        margin-bottom: 22px;
+        cursor: pointer;
+        margin-top: 20px;
+    }*/
+
+    .zone_populaire
+    {
+        flex: 1;
+        height: 700px;
+        margin-left: 20px;
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #f2f2f2;
+        min-height: auto;
+    }
 }
 
 
@@ -868,5 +1064,12 @@ ul
     {
         margin-top: 40px;
         display: flex;
+    }
+
+    .Texte_populaire
+    {
+        width: 60%;
+        padding-left: 5%;
+        line-height: 1;
     }
 }
