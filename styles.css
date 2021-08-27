@@ -42,59 +42,155 @@ ul
                                                                             NAVIGATION
                                                              **********************************************/
 
-.menu
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
+    .menu
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
 
-.nav
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
+    .nav
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 
-.bordure
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .bordure
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.taillediv
-{
-    height: 99px;
-}
+    .taillediv
+    {
+        height: 99px;
+    }
 
-.taillediv2
-{
-    flex-shrink: 0;
-}
+    .taillediv2
+    {
+        flex-shrink: 0;
+    }
 
-a.survol
-{
-    color: black;
-}
+    a.survol
+    {
+        color: black;
+    }
 
-a.survol2
-{
-    color: #0065FC;
-}
+    a.survol2
+    {
+        color: #0065FC;
+    }
 
-a.survol:hover
-{
-    color : #0065FC;
-}
+    a.survol:hover
+    {
+        color : #0065FC;
+    }
 
-.couleurbleue
-{
-    color: #0065FC;
-    margin-right: 10px;
-}
+    .couleurbleue
+    {
+        color: #0065FC;
+        margin-right: 10px;
+    }
+
+
+                                                             /*********************************************** 
+                                                                          SECTION CORPS DE PAGE
+                                                            **********************************************/
+
+
+
+    .icon
+    {
+       width: 50px;
+       height: 50px;
+       background-color: #F2F2F2;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 10px 0px 0px 10px;
+    }
+
+    .search
+    {
+        height: 50px;
+        width: 200px;
+        font-size: 16px;
+        color: black;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+
+    .bordurerech
+    {
+        border: none;
+    }
+
+    h3.soustitre
+    {
+        line-height: 0%;
+        font-family: Raleway;
+        font-weight: 200;
+    }
+
+
+
+                                                        /*********************************************** 
+                                                                     FILTRES
+                                                        **********************************************/
+
+
+
+    .filtreTexteIcons:hover
+    {
+       background-color : #DEEBFF;
+       color: #0065FC;
+       cursor: pointer;
+    }
+
+    .filtreText
+    {
+       font-weight: bold;
+       padding: 15px;
+    }
+
+    .propriete_icone
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        height: 50px;
+        width: 50px;
+        background-color: #deebff;
+        color: #0065fc;
+    }
+
+        .fas.fa-money-bill-wave.propriete_icone
+    {
+        display: flex;
+    }
+
+    .fas.fa-child.propriete_icone
+    {
+        display: flex;
+    }
+
+    .fas.fa-heart.propriete_icone
+    {
+        display: flex;
+    }
+
+    .fas.fa-dog.propriete_icone
+    {
+        display: flex;
+    }
 
 
 
@@ -107,6 +203,9 @@ a.survol:hover
 @media screen and (max-width: 767.98px)
 {
 
+                            /* MENU NAVIGATION */
+
+   
     .menu
     {
         width: 100%;
@@ -130,6 +229,130 @@ a.survol:hover
         border-bottom:  5px solid #0065fc;
     }
 
+
+                        /* CORS DE PAGE (titre, recherche, filtres) */
+
+
+    .fct_recherche
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+
+    h3.soustitre
+    {
+        margin-left: 10px;
+    }
+
+    h1.Titre
+    {
+        margin-left: 10px;
+    }
+
+    .fondbleu
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065FC;
+        width: auto;
+    }
+
+    .button
+    {
+        height: 50px;
+        width: 50px;
+        color: white;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+
+    span.recherche
+    {
+        display: none;
+    }
+
+
+
+    .filtres
+    {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    .filtreTexteIconsmobile
+    {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .info
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        height: 50px;
+        margin-top: -10px;
+        margin-left: -10px;
+        margin-bottom: 25px;
+    }
+
+    .icon_info
+    {
+        border-radius: 25px;
+        height: 25px;
+        width: 25px;
+        display: flex;
+        border: 2px solid #f2f2f2;
+        justify-content: center;
+        align-items: center;
+        color: #0065FC;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .texteinfo
+    {
+        width: 75%;
+        font-family: Raleway;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 60px;
+        font-size: 17px;
+    }
+
+    .borduregrey
+    {
+        border: 0.1px solid #f2f2f2;
+        width: 250px;
+    }
+
+    .titre_filtre
+    {
+        width: 100%;
+        margin-right: 30px;
+    }
+
+    .filtreTexteIcons
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #f2f2f2;
+        height: 50px;
+        border-radius: 30px;
+        margin-right: 10px;
+        margin-top: 8px;
+    }
+
 }
 
                                                             /*********************************************** 
@@ -147,6 +370,22 @@ a.survol:hover
     .navversiontab
     {
         margin-right: 10px;
+    }
+
+    .filtres
+    {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .filtres2
+    {
+        flex-wrap: wrap;
+        justify-content: center;    
     }
 }
 
@@ -167,11 +406,102 @@ a.survol:hover
     {
         border-top:  1px solid #0065FC;
     }
+
+     .fct_recherche
+    {
+        display: flex;
+        align-items: center;
+        width: 400px;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+
+    .fondbleu
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065FC;
+    }
+
+    .button
+    {
+        width: 120px;
+        height: 50px;
+        color: white;
+        cursor: pointer;
+        border-radius: 0 10px 10px 0;
+    }
+
+    span.icone
+    {
+        display: none;
+    }
+
+    .info
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        height: 50px;
+        margin-top: -20px;
+        margin-left: -20px;
+        margin-bottom: 20px;
+    }
+
+    .icon_info
+    {
+        border-radius: 25px;
+        height: 25px;
+        width: 25px;
+        display: flex;
+        border: 2px solid #f2f2f2;
+        justify-content: center;
+        align-items: center;
+        color: #0065FC;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .texteinfo
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 0%;
+        font-family: Raleway;
+        font-style: italic;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+
+    .borduregrey
+    {
+        border: 0.1px solid #f2f2f2;
+    }
+
+    .titre_filtre
+    {
+        margin-right: 30px;
+    }
+
+    .filtreTexteIcons
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #f2f2f2;
+        height: 50px;
+        border-radius: 30px;
+        margin-right: 20px;
+    }
 }
 
 
                                                             /*********************************************** 
-                                                                            AJUSTEMENT DESKTOP
+                                                                            VERSION DESKTOP
                                                             **********************************************/
 
 
@@ -181,5 +511,13 @@ a.survol:hover
     .nav
     {
         margin-left: 75%;
+    }
+
+    .filtres
+    {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
