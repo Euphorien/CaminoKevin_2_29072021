@@ -640,6 +640,140 @@ ul
         display: flex;
     }
 
+    .Activites1
+    {
+        background-image: url("medium/port.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .Activites2
+    {
+        background-image: url("medium/fort.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+
+
+    .Activites3
+    {
+        background-image: url("medium/frioul.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+
+
+    .Activites4
+    {
+        background-image: url("medium/calanques.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+
+
+    .Activites5
+    {
+        background-image: url("medium/garde.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+
+    .Activites6
+    {
+        background-image: url("medium/parc.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .activites
+    {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .div_activites
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cube_activites
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        cursor: pointer;
+        margin-top: 25px;
+    }
+
+    .titre_image 
+    {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 70px;
+      padding-left: 5%;
+      width: 95%;
+    }
+
+
+    .div_activites2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+
+    .cube_activites2
+    {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        cursor: pointer;
+        margin-bottom: 25px;
+    }
+
+    .cube_activites3
+    {
+
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        cursor: pointer;
+    }
+
 }
 
                                                             /*********************************************** 
@@ -1024,6 +1158,144 @@ ul
         background-color: #f2f2f2;
         min-height: auto;
     }
+                                                         /*********************************************** 
+                                                                            Activites
+                                                             **********************************************/
+
+
+    .activites
+    {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .div_activites
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+    }
+
+    .cube_activites
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 23%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        cursor: pointer;
+    }
+
+    .titre_image 
+    {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 70px;
+      padding-left: 5%;
+      width: 95%;
+    }
+
+
+    .div_activites2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 23%;
+        height: 600px;
+    }
+
+
+    .cube_activites2
+    {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+
+    .cube_activites3
+    {
+
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        cursor: pointer;
+    }
+
+    .Activites1
+    {
+        background-image: url("medium/port.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 530px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .Activites2
+    {
+        background-image: url("medium/fort.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 250px;
+        border-radius: 15px 15px 0 0;
+    }
+
+
+
+    .Activites3
+    {
+        background-image: url("medium/frioul.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 250px;
+        border-radius: 15px 15px 0 0;
+    }
+
+
+
+    .Activites4
+    {
+        background-image: url("medium/calanques.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 530px;
+        border-radius: 15px 15px 0 0;
+    }
+
+
+
+    .Activites5
+    {
+        background-image: url("medium/garde.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 250px;
+        border-radius: 15px 15px 0 0;
+    }
+
+
+    .Activites6
+    {
+        background-image: url("medium/parc.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 250px;
+        border-radius: 15px 15px 0 0;
+    }
+    
 }
 
 
