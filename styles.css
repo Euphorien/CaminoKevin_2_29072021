@@ -891,18 +891,37 @@ ul
         line-height: 1;
     }
 
+    .premiere_colonne
+    {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column; 
+    }
+
+    .deuxieme_colonne
+    {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .fond_blanc
     {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 30%;
+        width: 100%;
         height: auto;
         background-color: white;
         padding: 0.5%;
         border-radius: 20px;
         cursor: pointer;
         line-height: 0.8;
+        margin-top: 15px;
     }
 
     .main2
@@ -1124,35 +1143,6 @@ ul
         border-radius: 10px;
     }
 
-    .premiere_colonne
-    {
-        margin-bottom: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;   
-    }
-
-    .deuxieme_colonne
-    {
-        margin-top: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .fond_blanc
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 30%;
-        height: auto;
-        background-color: white;
-        padding: 0.5%;
-        border-radius: 20px;
-        cursor: pointer;
-        line-height: 0.8;
-    }
 
     .image_1_populaire
     {
@@ -1184,19 +1174,7 @@ ul
         border-radius: 15px 0 0 15px;
     }
 
-    /*.fond_blanc_populaire
-    {
-        display: flex;
-        justify-content: center;
-        height: auto;
-        background-color: white;
-        padding: 1% 0 1% 1%;
-        border-radius: 20px;
-        margin-bottom: 22px;
-        cursor: pointer;
-        margin-top: 20px;
-    }*/
-
+    
     .zone_populaire
     {
         flex: 1;
@@ -1426,5 +1404,35 @@ ul
         width: 60%;
         padding-left: 5%;
         line-height: 1;
+    }
+
+    .premiere_colonne
+    {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;   
+    }
+
+    .deuxieme_colonne
+    {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .fond_blanc
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 30%;
+        height: auto;
+        background-color: white;
+        padding: 0.5%;
+        border-radius: 20px;
+        cursor: pointer;
+        line-height: 0.8;
     }
 }
