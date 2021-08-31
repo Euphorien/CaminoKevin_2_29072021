@@ -27,7 +27,6 @@ ul
     width: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -504,7 +503,6 @@ ul
 
     .premiere_colonne
     {
-        margin-bottom: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -857,7 +855,7 @@ ul
 
     .premiere_colonne
     {
-        margin-bottom: 10px;
+
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -866,7 +864,6 @@ ul
 
     .deuxieme_colonne
     {
-        margin-top: 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
