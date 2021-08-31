@@ -774,6 +774,34 @@ ul
         cursor: pointer;
     }
 
+    .main
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #f2f2f2;
+    }
+
+    .bloclien
+    {
+        height: 100px;
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+    .marge
+    {
+        margin-right: 30%;
+    }
+
+
+    .lien
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
                                                             /*********************************************** 
@@ -875,6 +903,28 @@ ul
         border-radius: 20px;
         cursor: pointer;
         line-height: 0.8;
+    }
+
+    .main2
+    {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .lien2
+    {
+        width: 150px;
+    }
+
+    .lien3
+    {
+        width: 170px;
+    }
+
+    .lien4
+    {
+        width: 220px;
     }
 }
 
@@ -1295,7 +1345,40 @@ ul
         height: 250px;
         border-radius: 15px 15px 0 0;
     }
-    
+
+                                                                 /******************************************
+                                                                        FOOTER 
+                                                            ********************************************/
+
+    .main
+    {
+        margin-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 200px;
+        background-color: #f2f2f2;
+    }
+
+    .bloclien
+    {
+        height: 100px;
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+
+    .marge
+    {
+        margin-right: 30%;
+    }
+
+
+    .lien
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 
