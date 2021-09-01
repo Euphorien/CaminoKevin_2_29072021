@@ -540,6 +540,8 @@ ul
         padding: 1% 0 2% 0;
     }
 
+    /*POPULAIRE*/
+
     .image_1_populaire
     {
         background-image: url("small/soleil du matin.jpg");
@@ -602,6 +604,8 @@ ul
         margin-top: 50px;
         display: flex;
     }
+
+    /* ACTIVITES*/
 
     .Activites1
     {
@@ -736,6 +740,8 @@ ul
         box-shadow: 5px 5px 5px 1px #f2f2f2;
         cursor: pointer;
     }
+
+    /*FOOTER*/
 
     .main
     {
@@ -884,6 +890,8 @@ ul
         line-height: 0.8;
         margin-top: 15px;
     }
+
+    /*FOOTER*/
 
     .main2
     {
